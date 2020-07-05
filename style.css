@@ -1,0 +1,162 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+body
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('back3.jpg');
+	height:100vh;
+	backgroung-size:cover;
+	background-position: center;
+
+}
+
+
+ul
+{
+margin-right: 25px;
+margin-top: 25px;
+float: right;
+list-style-type: none;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+	border: 5px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover
+{
+	background-color: #fff;
+	color:#00;
+}
+
+.title
+{
+	position:absolute;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+.title h1{
+	color:#fff;
+	font-size: 70px;
+}
+
+.sub-title
+{
+	position:absolute;
+	margin-top: 170px;
+	margin-left: 50px;
+
+}
+
+.sub-title h1{
+	color:orange;
+	font-size: 40px;
+	font-family: Georgia;
+	}
+
+.slider{
+	width:800px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	background-size: cover;
+	background: url('dd.jpg');
+	box-shadow: 1px 2px 10px white;
+	animation: slide 10s infinite;
+}
+
+@keyframes slide
+{
+	25%{
+		background: url('bat.jpg')
+	}
+	50%{
+		background: url('wazir.jpg')
+	}
+	75%{
+		background: url('marvel.jpg')
+	}
+	100%{		background: url('incep.jpg')
+	}
+
+}
+
+.content{
+	position:absolute;
+	margin-top: 300px;
+	margin-left: 50px;
+	margin-right: 600px;
+
+	background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url('qq.jpg');
+}
+
+.content p{
+	font-size:20px;
+	text-decoration: none;
+	color:black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-family: Century Gothic;
+	text-align: center;
+	font-weight: bold;
+}
+.content img{
+float:inherit;
+width:540px;
+height:340px;
+margin-left: 150px;
+margin-right: 10px;
+solid border: 20px;
+}
+.content h1{
+text-align: center;
+}
+.g{
+	position:absolute;
+	margin-top: 300px;
+	margin-left: 65%;
+	font-size: 24px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('ff.jpg');
+	width:440px;
+	height:440px;
+	text-align: center;
+	font-size:24px;
+	color: white;
+	font-weight: bold;
+	font-family: Century Gothic;
+}
+.g a{
+	color:white;
+	  text-decoration: none
+
+
+}
+footer {
+  position: fixed;
+	margin-top: 2%;
+  height: 50 width: 100%;
+  text-align: center;
+	margin:auto;
+	margin-left: 45%;
+	object-position: center;
+  font-size: 0.8em;
+  bottom: 0;
+}
